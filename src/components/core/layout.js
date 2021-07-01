@@ -1,8 +1,9 @@
+import Navigation from "./Navigation";
 
 export default function layout({children}) {
     return (
         <div>
-            layout
+            <Navigation />
             {children}
         </div>
     )

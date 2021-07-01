@@ -3,9 +3,10 @@ import Layout from "./layout";
 
 export default function Home() {
     const state = useSelector(state => state)
+    console.log(state);
     return (
         <Layout>
-            Home {JSON.stringify(state)}
+            Home
         </Layout>
     )
 }
