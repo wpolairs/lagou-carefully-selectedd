@@ -9,8 +9,13 @@ export default function layout({children, title, subTitle}) {
                 className="jumbotron"
                 title={title}
                 subTitle={subTitle}
-            />,
-            {children}
+            />
+            <div style={{
+                width: '85%',
+                margin: '0 auto'
+            }}>
+                {children}
+            </div>
         </div>
     )
 }
